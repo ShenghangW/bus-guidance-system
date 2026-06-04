@@ -23,7 +23,7 @@ public class Bus {
         this.fuelType = fuelType;
     }
 
-    // B1: busID format
+    // B1: busID format.
     // Exactly 8 characters, all must be digits.
     public static boolean isValidBusID(String busID) {
         if (busID == null || busID.length() != 8) return false;
